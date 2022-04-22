@@ -1,0 +1,97 @@
+.App button {
+    border-radius: 2px;
+    font-family: 'Inter';
+    font-size: 18px;
+    line-height: 24px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 600;
+    gap:10px;
+    padding: 16px 32px;
+    margin-right: 10px;
+}
+.primaryBtn {
+    width: 132px;
+    height: 56px;
+    background: #2231AA;
+    color: #FFFFFF;
+}
+
+.primaryBtn:hover {
+    background: #5360CD;
+}
+
+.secondaryBtn { 
+    width: 159px;
+    height: 56px;
+    background: #E8E8E8;
+    color: #313037;
+}
+
+.secondaryBtn:hover {
+    background: #DADADA;
+}
+
+.secondary2Btn {
+    width: 159px;
+    height: 56px;
+    color: #FD3419;
+    background-color: #FFFFFF;
+}
+
+.secondary2Btn:hover {
+    border: 1px solid rgb(174, 174, 174);
+}
+
+.iconBtn {
+    width: 241px;
+    height: 56px;
+    background: #E8E8E8;
+    color: #313037;
+}
+
+.iconBtn img {
+    padding: 0 6px;
+}
+
+.iconBtn:hover {
+    background: #5360CD;
+    color: #FFFFFF;
+}
+
+.likeBtn  {
+    background: #E8E8E8;
+    border-radius: 2px;
+    width: 88px;
+    height: 56px;
+}
+
+.likeBtn:hover {
+    background: #5360CD;
+}
+
+.dislikeBtn {
+    background: #E8E8E8;
+    border-radius: 2px;
+    width: 88px;
+    height: 56px;
+}
+
+.dislikeBtn:hover {
+    background: #FD3419;
+}
+
+.dislikeBtn:hover img {
+    filter: brightness(0) invert(1);
+}
+
+.likeBtn:hover img {
+    filter: brightness(0) invert(1);
+}
+
+.iconBtn:hover img {
+    filter: brightness(0) invert(1);
+}
+
