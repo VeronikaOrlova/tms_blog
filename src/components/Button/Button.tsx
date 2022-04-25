@@ -9,8 +9,6 @@ type ButtonProps = {
     icon?: string;
 }
 
-
-
 export const Button = ({onClick, text, disabled, className,icon}: ButtonProps) => {
     return (
         <button type='button' onClick={onClick} disabled={disabled} className={className}>

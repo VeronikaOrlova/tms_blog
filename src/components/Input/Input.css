@@ -1,0 +1,45 @@
+.App label{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #313037
+}
+  .input {
+    height: 56px;
+    width: 544px;
+    left: 0px;
+    top: 28px;
+    border-radius: 2px;
+    text-align: start;
+    color: #8d8e97;
+    border: none;
+  }
+  .input:focus {
+    background: #ffffff;
+    border-radius: 2px;
+    border: 2px solid #DADADA;
+  }
+  .input:active {
+    color: #313037;
+  }
+  .input:disabled {
+    background: #e8e8e8;
+    border-radius: 2px;
+    color: #8d8e97;
+  }
+  
+  .errorInput {
+    border: 2px solid #fd3419;
+  }
+  .error {
+    width: 30px;
+    color: #fd3419;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+  }
