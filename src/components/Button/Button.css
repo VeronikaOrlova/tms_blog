@@ -1,4 +1,4 @@
-.App button {
+.button {
     border-radius: 2px;
     font-family: 'Inter';
     font-size: 18px;
@@ -83,15 +83,6 @@
     background: #FD3419;
 }
 
-.dislikeBtn:hover img {
+button:hover img {
     filter: brightness(0) invert(1);
 }
-
-.likeBtn:hover img {
-    filter: brightness(0) invert(1);
-}
-
-.iconBtn:hover img {
-    filter: brightness(0) invert(1);
-}
-

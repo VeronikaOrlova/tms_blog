@@ -1,6 +1,7 @@
 import React from 'react'
 import './Button.css'
 
+
 type ButtonProps = {
     text?: string;
     onClick: () => void;
@@ -13,8 +14,8 @@ type ButtonProps = {
 
 export const Button = ({onClick, text, disabled, className,icon}: ButtonProps) => {
     return (
-        <button type='button' onClick={onClick} disabled={disabled} className={className}>
-            {icon && <img src={icon} alt='' className='icons'/>}
+        <button type='button' onClick={onClick} disabled={disabled} className={`button ${className}`} >
+            {icon && <img src={icon} alt=''/>}
             {text} </button>
     )
 }
