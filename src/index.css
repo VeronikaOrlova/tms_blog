@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.theme--light {
+  background-color: rgb(76, 61, 61);
+}
+
+.theme--dark {
+  background-color: azure;
+}
